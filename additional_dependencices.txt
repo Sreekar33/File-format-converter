@@ -1,0 +1,9 @@
+ADDITIONAL DEPENDENSIES:
+xlsx2csv :modules to be installed.
+networkx :modules to be installed.
+pickle   :modules to be installed.
+csv      :modules to be installed.
+
+
+
+ 

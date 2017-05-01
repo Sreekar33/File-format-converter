@@ -1,0 +1,59 @@
+Report:
+
+Project Title:
+            
+            conversion of file formats into some formats which are acceptable by networkX
+            
+Group members:
+        Rajith  - CS14BTECH11016
+        Sreekar - CS14BTECH11033
+        Prasad  - CS14BTECH11009            
+
+Motivation for the project:
+        
+        Some kind of data or information are stored in csv and xlsx  like mobile data so if we want to 	study the data with Gephi or 
+        networkx we cannot do directly so we have to convert that data into some graph format which are accpetable by that sofware so that 
+        we can study the data.
+        
+        And networkx intakes so many graph formats  and outputs so many so we can read from one graph format and write to other graph 
+        formats.
+	
+	The main concern is about [csv] and [xlsx]
+        
+A brief description of the project:
+        
+        The project is based on the conversion of the file formats. There is a module named NetworkX in python which works with the graphs. 
+        This module has many functions but the only drawback of this module is the acceptance of less number of file formats. Each of these 
+        file formats which are accepted by NetworkX consists of the information of the graphs like nodes, edges, attributes to nodes and 
+        edges etc. This module NetworkX is basically a module in Python in which we can generate graphs and modify or add information to the 
+        graphs.
+        
+        Most of the social networking networking sites like facebook and some mobile networks like airtel etc. wants their tabular form of 
+        information to be stored in a graph formats which is easy to understand and can estimate many things simply just by looking. This 
+        NetworkX can be used in python to calculate some things from the graphs. But the only disadvantage of this module is that it cannot 
+        accept the csv file format. 'csv' and 'xlsx' are the file formats which are obtained from microsoft Excel. While most of these 
+        social networking sites and mobile network represent their data in csv file formats. It cannot use this networkX module to 
+        manipulate the graphs.
+        
+        Hence we made a file format converter which converts csv and xlsx file formats into file formats which are acceptable by the module 
+        NetworkX this makes work of the manipulations in graphs easy.
+
+TOOLS/TECHNIQUES USED FOR THE PROJECT:
+        
+        Python with NetworkX module, xlsx to csv converter module, csv module, xlsx module,  gexf module, gml module, pickle module, graphML 
+        module, YAML module, LEDA module, SparseGraph6 module, Pajek module, GISShapefile module.
+        
+        NOTE: NetworkX is included as module in our program hence it has to be installed. Same case with xlsx to csv.
+        
+        TECHNIQUES:
+            CSV files are generally the tables in excel files. In this formats the rows are seperated by commas and the coloumns by line
+            we took each row. The Top most column is the headings coloumn.
+            
+            We ask the user which attributes should be inseted as nodes, edges, its attributes in the graph. We are adding each node, edge 
+            and its attributes by creating a virtual graph using NetwrkX module. 
+            
+            By using an inbuilt networkX function 'write' we fed this data into a required file format.
+
+IDEAS ON HOW THE PROJECT CAN BE IMPROVED:
+       
+       Providing user interface would be helpful to improve this project on which we are working.            
